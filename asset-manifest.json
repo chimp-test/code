@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chimp-test.github.io/static/css/main.c30ea596.css",
+    "main.js": "/chimp-test.github.io/static/js/main.a8b5b0f9.js",
+    "static/js/453.cc8944fd.chunk.js": "/chimp-test.github.io/static/js/453.cc8944fd.chunk.js",
+    "index.html": "/chimp-test.github.io/index.html",
+    "main.c30ea596.css.map": "/chimp-test.github.io/static/css/main.c30ea596.css.map",
+    "main.a8b5b0f9.js.map": "/chimp-test.github.io/static/js/main.a8b5b0f9.js.map",
+    "453.cc8944fd.chunk.js.map": "/chimp-test.github.io/static/js/453.cc8944fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c30ea596.css",
+    "static/js/main.a8b5b0f9.js"
+  ]
+}

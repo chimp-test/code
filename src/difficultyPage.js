@@ -35,11 +35,11 @@ export default function DifficultyPage() {
         alignItems: 'center',
       }}
     >
-      <h1 style={{ marginBottom: '4rem', fontSize: '2.5rem' }}>Settings</h1>
+      <h1 style={{ marginBottom: '3rem', fontSize: '2.5rem' }}>Settings</h1>
       
-      <h2 style={{ marginBottom: '2rem'}}>Select Difficulty</h2>
+      <h2 style={{ marginBottom: '1.5rem'}}>Select Difficulty</h2>
 
-      <div style={{ display: 'flex', gap: '20px', marginBottom: '4rem' }}>
+      <div style={{ display: 'flex', gap: '20px', marginBottom: '3rem' }}>
         {['easy', 'medium', 'hard'].map((level) => (
           <button
             key={level}

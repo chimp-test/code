@@ -1,0 +1,227 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* Container styling */
+.homepage {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  color: white;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #12121a;
+}
+
+/* Title */
+.title {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* Description */
+.description {
+  max-width: 600px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Button */
+.start-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #43a047;
+}
+
+
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-align: center;
+}
+
+.main1 {
+  background-color: #12121a;
+  overflow: hidden;
+  flex-grow: 1;
+  min-height: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.custom-navbar {
+  background-color: #1e1e2f !important;
+  flex-shrink: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fill page and center content */
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #12121a; /* dark background like the benchmark site */
+}
+
+/* Grid container */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Row container */
+.grid-row {
+  display: flex;
+  gap: 10px;
+}
+
+.debug-cell {
+  background-color: #444;
+  border: 1px solid #888;
+  color: white;
+}
+
+/* Default cell style */
+.grid-cell {
+  width: 75px;
+  height: 75px;
+  font-size: 40px;
+  font-weight:900;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Visible chimp-test boxes 2196f3*/
+.chimp-box {
+  background-color: #8282a9;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Hidden cells: match background, no borders */
+.hidden-box {
+  background-color: #1e1e1e;
+}
+
+
+
+/* Congrats Page */
+.congrats-container {
+  background-color: #12121a;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.congrats-title {
+  font-size: 3rem;
+  padding: 10px;
+  margin-bottom: 1rem;
+  color: #4caf50;
+}
+
+.congrats-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.round-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fbc02d;
+}
+
+.congrats-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.congrats-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.congrats-button:hover {
+  background-color: #43a047;
+}
+
+.congrats-button.alt {
+  background-color: #607d8b;
+}
+
+.congrats-button.alt:hover {
+  background-color: #546e7a;
+}

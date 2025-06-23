@@ -1,0 +1,52 @@
+/* Fill page and center content */
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #1e1e1e; /* dark background like the benchmark site */
+}
+
+/* Grid container */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Row container */
+.grid-row {
+  display: flex;
+  gap: 10px;
+}
+
+.debug-cell {
+  background-color: #444;
+  border: 1px solid #888;
+  color: white;
+}
+
+/* Default cell style */
+.grid-cell {
+  width: 75px;
+  height: 75px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Visible chimp-test boxes */
+.chimp-box {
+  background-color: #2196f3;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Hidden cells: match background, no borders */
+.hidden-box {
+  background-color: #1e1e1e;
+}

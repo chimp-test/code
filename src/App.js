@@ -10,7 +10,7 @@ import DifficultyPage from './difficultyPage';
 
 import GameContext from './GameContext';
 
-// Move header into its own component so we can use useLocation inside Router
+
 function Header() {
   const location = useLocation();
   const { round, timeLeft, chancesLeft } = React.useContext(GameContext);

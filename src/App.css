@@ -5,7 +5,6 @@ html, body, #root {
   padding: 0;
 }
 
-/* Container styling */
 .homepage {
   display: flex;
   overflow: hidden;
@@ -20,20 +19,17 @@ html, body, #root {
   background-color: #12121a;
 }
 
-/* Title */
 .title {
   font-size: 4rem;
   margin-bottom: 1rem;
 }
 
-/* Description */
 .description {
   max-width: 600px;
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
 
-/* Button */
 .start-button {
   background-color: #4caf50;
   color: white;
@@ -109,23 +105,20 @@ html, body, #root {
 
 
 
-/* Fill page and center content */
 .grid-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: #12121a; /* dark background like the benchmark site */
+  background-color: #12121a; 
 }
 
-/* Grid container */
 .grid {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* Row container */
 .grid-row {
   display: flex;
   gap: 10px;
@@ -137,7 +130,6 @@ html, body, #root {
   color: white;
 }
 
-/* Default cell style */
 .grid-cell {
   width: 75px;
   height: 75px;
@@ -150,14 +142,12 @@ html, body, #root {
   justify-content: center;
 }
 
-/* Visible chimp-test boxes 2196f3*/
 .chimp-box {
   background-color: #8282a9;
   color: white;
   border-radius: 4px;
 }
 
-/* Hidden cells: match background, no borders */
 .hidden-box {
   background-color: #1e1e1e;
 }

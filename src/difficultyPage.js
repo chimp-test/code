@@ -9,8 +9,8 @@ const difficultySettings = {
 
 export default function DifficultyPage() {
   const navigate = useNavigate();
-  const [symbolMode, setSymbolMode] = useState('numbers'); // local symbol mode
-  const [difficulty, setDifficulty] = useState('easy');     // local difficulty
+  const [symbolMode, setSymbolMode] = useState('numbers'); 
+  const [difficulty, setDifficulty] = useState('easy');     
 
   const handlePlay = () => {
     const settings = difficultySettings[difficulty];
@@ -39,7 +39,6 @@ export default function DifficultyPage() {
       
       <h2 style={{ marginBottom: '2rem'}}>Select Difficulty</h2>
 
-      {/* Difficulty Button Row */}
       <div style={{ display: 'flex', gap: '20px', marginBottom: '4rem' }}>
         {['easy', 'medium', 'hard'].map((level) => (
           <button
